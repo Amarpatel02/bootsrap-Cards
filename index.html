@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+      
+        body{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+     ul {
+  display: flex;  
+  width: 100vw;
+  margin: 0; 
+  padding: 0;  
+  list-style: none;  
+  position: fixed;
+  height: 50px;
+  background-color: white;
+  align-items: center;
+}
+
+li {
+     
+    margin: 0px 20px;
+  
+}
+
+li:first-child {
+  margin-right: auto; 
+  font-size: 1.2rem;  
+}
+
+li:hover{
+    background-color: grey;
+}
+
+.img1{
+    width: 100%;
+    height: auto;
+}
+
+.page2{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.page2 div{
+    margin-top: 5vh;
+    width: 49vw;
+    height: 100vh;
+    padding: 5vh;
+}
+.box1 img{
+     width: 100%;
+    height: 100%;
+}
+
+.box2{
+    text-align: justify;
+}
+
+h2, h5{
+    text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+    
+    
+    li {
+         display: none;
+    }
+}
+
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Gourmet au Catering</li>
+            <li>About</li>
+            <li>Menu</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+ 
+        <img src="https://www.w3schools.com/w3images/hamburger.jpg" alt="" class="img1">
+
+<div class="page2">
+    <div class="box1">
+        <img src="https://www.w3schools.com/w3images/tablesetting2.jpg"  alt="">
+    </div>
+    <div class="box2">
+        <h2 class="m-4">About Catering</h2>
+        <h5 class="m-4">Tradition since 1889</h5>
+        <p>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.</p>
+        <p class="opacity-50">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+</div>
+</body>
+</html>
